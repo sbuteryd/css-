@@ -1,0 +1,153 @@
+/*版心*/
+
+
+/* 声明字体图标 这里一定要注意路径的变化 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*布局 自身 文本 其他*/
+
+.style_red {
+    color: #c81623;
+}
+
+
+/*快捷导航模块*/
+
+.shortcut {
+    height: 31px;
+    /* line-height 会继承 */
+    line-height: 31px;
+    background: #f1f1f1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* short cut */
+
+.shortcut li {
+    float: left;
+}
+
+.shortcut .fr li:nth-child(2n) {
+    height: 12px;
+    width: 1px;
+    background: #666666;
+    margin: 9px 14px 0 14px;
+}
+
+.arrow-icon::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+
+/* 8:49 */
+
+
+/* 头部制作 */
+
+.header {
+    position: relative;
+    height: 105px;
+    background: pink;
+}
+
+.logo {
+    position: absolute;
+    top: 24px;
+    width: 171px;
+    height: 56px;
+}
+
+.logo-pic {
+    display: block;
+    width: 171px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat center;
+    text-indent: -99999px;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    left: 347px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+}
+
+.search button {
+    width: 80px;
+    height: 32px;
+    background: #b1191a;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 69px;
+    left: 356px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+.shopcart {
+    position: absolute;
+    top: 25px;
+    left: 993px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #dfdfdf;
+    line-height: 36px;
+    text-align: center;
+}
+
+.shopcart::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 7px;
+}
+
+.shopcart::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 14px;
+}
