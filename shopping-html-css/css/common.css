@@ -71,7 +71,6 @@
 .header {
     position: relative;
     height: 105px;
-    background: pink;
 }
 
 .logo {
@@ -150,4 +149,35 @@
     content: '\e920';
     font-family: 'icomoon';
     margin-left: 14px;
+}
+
+.count {
+    position: absolute;
+    left: 105px;
+    bottom: 26px;
+    padding: 0 5px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 7px 7px 7px 0;
+    background: #c81623;
+    color: #fff;
+}
+
+
+/* 导航 */
+
+nav {
+    border-bottom: 2px solid #c81623;
+    height: 47px;
+}
+
+.dropdown {
+    float: left;
+    width: 209px;
+    height: 45px;
+    background: #c81623;
+}
+
+.nav-item {
+    float: left;
 }
