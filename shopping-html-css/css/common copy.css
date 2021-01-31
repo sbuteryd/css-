@@ -237,12 +237,6 @@ nav dd {
 
 /* nav */
 
-footer {
-    height: 417px;
-    padding-top: 30px;
-    background-color: #f5f5f5;
-}
-
 .nav-item ul li {
     float: left;
 }
@@ -255,83 +249,6 @@ footer {
     font-size: 16px;
 }
 
-.servers {
-    height: 80px;
-    border-bottom: 1px solid #ddd;
-}
-
-.servers ul {
-    height: 80px;
-}
-
 .servers ul>li {
-    float: left;
     width: 240px;
-    height: 49px;
-    padding-left: 34px;
-    /* background: pink; */
-}
-
-.servers .icon {
-    float: left;
-    width: 49px;
-    height: 49px;
-}
-
-.servers .text {
-    float: left;
-    margin-left: 6px;
-}
-
-.servers .icon {
-    background: url('../images/icons.png') -253px -3px no-repeat;
-}
-
-
-/* model-help */
-
-
-/* 1200/6 = 200 */
-
-.model-help {
-    height: 188px;
-    padding-top: 21px;
-    border-bottom: 1px solid #ddd;
-}
-
-.model-help dl {
-    float: left;
-    width: 200px;
-}
-
-.model-help dt {
-    font-size: 16px;
-}
-
-.model-help dl dd {
-    line-height: 20px;
-}
-
-.model-help dl:last-child {
-    text-align: center;
-}
-
-
-/* copy-right */
-
-.copy-right {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.links a {
-    margin: 0 14px;
-}
-
-.copy-right a {
-    line-height: 27px;
-}
-
-.addres {
-    padding-top: 15px;
 }
